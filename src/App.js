@@ -9,6 +9,9 @@ function App() {
       <div className="bg-gray-400 text-3xl">
            ddd
         </div>
+        <div className="bg-hero-img">
+          some text
+        </div>
     </div>
   );
 }

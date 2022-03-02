@@ -30,6 +30,9 @@ module.exports = {
       },
       borderRadius: {
         '4xl': '2rem',
+      },
+      backgroundImage:{
+        'hero-img': 'url(../public/home/hero-img.png)',
       }
     }
   }
