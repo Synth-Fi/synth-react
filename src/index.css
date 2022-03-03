@@ -3,10 +3,11 @@
 @tailwind utilities;
 
 .stack-item {
-
     border-radius: 1rem;
-    width: 380px;
-    height:180px;
+    /* width: 380px;
+    height:180px; */
+    width: 10rem;
+    height: 10rem;
     align-self: end;
     padding-top: 1rem;
     margin-left: 2rem;

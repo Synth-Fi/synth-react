@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 import React from 'react';
-import HeroSection from './components/HeroSection';
-import HeroSection2 from './components/HeroSection2';
+import HeroSection from './sections/HeroSection';
+import HeroSection2 from './sections/HeroSection2';
 import OutlinedBox from './components/OutlinedBox';
 import StackSection from './components/StackSection';
 // import { CryptoCards, Button } from 'web3uikit';
