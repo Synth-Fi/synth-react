@@ -10,6 +10,10 @@ export const home_page_text = {
         color: 'purple'},
         
     ],
+    stack_section: {
+        main: " Start capitalizing on your defi assets",
+        secondary: "Earn Astonishing APY on ETH,USDT,SOL and countless other assets",
+    },
 
     filled_boxes: [
         {main: 'unstake at any time',
