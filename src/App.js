@@ -1,17 +1,23 @@
 // import logo from './logo.svg';
+import React from 'react';
+import HeroSection from './components/HeroSection';
+import OutlinedBox from './components/OutlinedBox';
+// import { CryptoCards, Button } from 'web3uikit';
+import { home_page_text } from './home_page_text';
 
-// import './App.css';
-import Navbar from './components/Navbar';
 function App() {
+  // HOME PAGE
   return (
-    <div className="bg-black-900">
-      <Navbar />
-      <div className="bg-gray-400 text-3xl">
-           ddd
+    <div>
+
+      <HeroSection />
+      <div className='grid grid-flow-row'>
+      <p className='text-white text-center text-4xl'>CDs are out <p className=''>VHS </p>
+        is in 😎</p>
         </div>
-        <div className="bg-hero-img">
-          some text
-        </div>
+      {home_page_text.outlined_boxes.map(box => {return (
+        <OutlinedBox {...box}/>
+      );})}
     </div>
   );
 }

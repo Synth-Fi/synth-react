@@ -1,15 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import Wrapper from './Wrapper';
 import reportWebVitals from './reportWebVitals';
-import NavBar from './components/Navbar';
 ReactDOM.render(
   <React.StrictMode>
-    <div>
-      <NavBar/>
+    <div className='bg-blac'>
+      <Wrapper/>
     </div>
-    <App />
+
   </React.StrictMode>,
   document.getElementById('root')
 );

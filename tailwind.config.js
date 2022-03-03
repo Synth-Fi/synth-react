@@ -1,8 +1,8 @@
 module.exports = {
-  purge: ['./src/**/*.{js,jsx}','./src/*.{js,jsx}','./public/index.html'],
-  content: [
-    // "./src/**/*.{js,jsx,ts,tsx}",
-  ],
+  purge: ['./src/**/*.{js,jsx}','./public/index.html'],
+  // content: [
+  //   "./src/**/*.{js,jsx,ts,tsx}",
+  // ],
   theme: {
     screens: {
       sm: '480px',
@@ -14,9 +14,9 @@ module.exports = {
       'blue': '#207DFF',
       'pink': '#ff49db',
       'purple': '#B62EE0',
-      'gray-dark': '#273444',
       "yellow": "#FFF620",
       'gray': '#8492a6',
+      'blac': '#000000',
       'gray-light': '#d3dce6',
     },
     fontFamily: {
@@ -33,7 +33,9 @@ module.exports = {
       },
       backgroundImage:{
         'hero-img': 'url(../public/home/hero-img.png)',
+        'nav-img': 'url(../public/nav-shadow.png)',
       }
     }
-  }
+  },
+  plugins: [require("daisyui")],
 }

@@ -2,4 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
+.stack-item {
+
+    border-radius: 1rem;
+    width: 380px;
+    height:180px;
+    align-self: end;
+    padding-top: 1rem;
+    margin-left: 2rem;
+}
+
+.nav-stack {
+    width: 10rem;
+    height: 3rem;
+    align-self: end;
+    border-radius: 1rem;
+    padding-top: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Press Start 2P', 
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
+.hero-text{
+    color: #fff;
+    font-size: 22rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+
 
