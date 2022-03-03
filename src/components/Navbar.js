@@ -19,9 +19,9 @@ const nav_items = [
 function NavItem(props) {
     return (
         <div className='px-4'>
-            <div className="bg-yellow rounded-2xl nav-stack">
-                <div className="bg-blue nav-stack">
-                    <div className="bg-pink nav-stack text-center">
+            <div className="bg-yellow rounded-2xl nav-stack  hover:bg-opacity-70">
+                <div className="bg-blue nav-stack  hover:bg-opacity-70">
+                    <div className="bg-pink nav-stack text-center  hover:bg-opacity-70">
                         <p className="pt-1">{props.text}</p>
 
                     </div>
@@ -49,7 +49,7 @@ export default function Navbar() {
             </div>
             {/* OPEN APP BUTTON */}
             <button className='bg-transparent hover:bg-pink text-pink font-semibold hover:text-purple py-2 px-4 border border-pink hover:border-transparent rounded-2xl'>
-                Connect</button>
+                Launch app</button>
         </div>
     );
 }
