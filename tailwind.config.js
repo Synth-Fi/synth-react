@@ -14,6 +14,7 @@ module.exports = {
       'blue': '#207DFF',
       'pink': '#ff49db',
       'purple': '#B62EE0',
+      'white': '#fff',
       "yellow": "#FFF620",
       'gray': '#8492a6',
       'blac': '#000000',
@@ -35,6 +36,8 @@ module.exports = {
       backgroundImage:{
         'hero-img': 'url(../public/home/hero-img.png)',
         'nav-img': 'url(../public/nav-shadow.png)',
+        'mockup-img': 'url(../public/mockup.png)',
+        'hero2-img': 'url(../public/home/hero2-img.png)',
       }
     }
   },

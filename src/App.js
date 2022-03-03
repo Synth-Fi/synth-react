@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import React from 'react';
 import HeroSection from './components/HeroSection';
+import HeroSection2 from './components/HeroSection2';
 import OutlinedBox from './components/OutlinedBox';
 import StackSection from './components/StackSection';
 // import { CryptoCards, Button } from 'web3uikit';
@@ -9,11 +10,11 @@ import { home_page_text } from './home_page_text';
 function App() {
   // HOME PAGE
   return (
-    <div>
+    <div className='items-center'>
 
       <HeroSection />
-      <div className='grid grid-flow-row'>
-      <p className='text-white text-center text-4xl'>CDs are out <p className=''>VHS </p>
+      <div className=''>
+      <p className='text-white text-center text-4xl p-5'>CDs are out VHS 
         is in 😎</p>
         </div>
       {/* STACK SECTION */}
@@ -21,6 +22,7 @@ function App() {
         <OutlinedBox {...box}/>
         );})}
         <StackSection  {...home_page_text.stack_section}/>
+        <HeroSection2 />
     </div>
   );
 }
