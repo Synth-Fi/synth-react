@@ -22,6 +22,7 @@ module.exports = {
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
+      'press-start': ['"Press Start 2P"', 'cursive']
     },
     extend: {
       spacing: {
