@@ -48,7 +48,7 @@ export default function Navbar() {
                 ))}
             </div>
             {/* OPEN APP BUTTON */}
-            <button className='bg-transparent hover:bg-pink text-pink font-semibold hover:text-white py-2 px-4 border border-pink hover:border-transparent rounded-2xl'>
+            <button className='bg-transparent hover:bg-pink text-pink font-semibold hover:text-purple py-2 px-4 border border-pink hover:border-transparent rounded-2xl'>
                 Connect</button>
         </div>
     );
