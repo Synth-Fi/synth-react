@@ -26,5 +26,13 @@ export const home_page_text = {
         {main: 'Capitalizing on the power of compound interest',
         emoji: '💸',
         color: 'yellow'    },
-    ]
+    ],
+
+    // LABELED AS q and a respec.
+    faq: [
+        {
+            q: 'What is Defi?',
+            a: "",
+        },
+    ],
 }
