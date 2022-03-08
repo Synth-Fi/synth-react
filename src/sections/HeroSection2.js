@@ -1,62 +1,68 @@
-import React from 'react';
-import img1 from '../assets/images/mockup.png';
-
-// import '../index.css';
+import React from "react";
+import img1 from "../assets/images/mockup.png";
+import { FaClock, FaRandom, FaRegMoneyBillAlt } from "react-icons/fa";
 export default function HeroSection2(props) {
-	return (
-		<>
-			<div className="font-Poppins w-full justify-center items-center bg-hero2-img bg-cover p-4 bg-center lg:max-w-7xl  md:max-w-4xl">
-				<div className=" text-center text-xl items-center font-extrabold text-white pt-4 pb-4 md:text-3xl lg:text-4xl">
-					<span>Reimagine Yield Farming</span>
-				</div>
-				<div className="grid grid-cols-3 gap-4 pr-6">
-					<div className="col-span-2">
-						<img className="max-w-full h-auto" src={img1} alt="sup" />
-					</div>
+  const onClick = () => {
+    console.log("Launching app...");
+  };
+  return (
+    <>
+      <div className="font-Poppins justify-center items-center w-full bg-hero2-img bg-cover p-4 bg-center md:max-w-4xl lg:max-w-7xl">
+        <div className="items-center text-2xl font-extrabold text-white text-center pt-4 md:pb-4 md:text-3xl lg:text-4xl">
+          <span>Reimagine Yield Farming</span>
+        </div>
+        <div className="md:grid md:grid-cols-3 md:gap-4 md:pr-6">
+          <div className="md:col-span-2">
+            <img
+              className="max-w-full h-auto"
+              src={img1}
+              alt="synth cell phone"
+            />
+          </div>
 
-					<div className="flex flex-col items-center justify-center opacity-90  ">
-						<div className="flex flex-col items-center justify-center bg-gray rounded-xl h-1/2 text-center">
-							<span className="font-Poppins p-3 text-white font-bold text-xl ">
-								Simply deposit, and begin earning between
-							</span>
-							<span className="font-Poppins p-3 font-black text-4xl text-transparent md:text-3xl bg-clip-text bg-gradient-to-r from-[#7928ca]  to-[#ff0080]">
-								5-15% APR
-							</span>
-							<button className="w-2/3 pr-6 pl-6 pt-4 pb-4 rounded-4xl bg-gradient-to-r p-[5px] from-[#7928ca] to-[#ff0080] text-2xl text-white">
-								Launch App
-							</button>
-						</div>
-					</div>
-				</div>
-				<div className="grid grid-cols-3  bg-slate-600 relative ">
-					<div className="absolute w-64 bg-purple text-2xl text-white rounded-xl">
-						sdf
-					</div>
-					<div className="absolute w-64 w-3/4 bg-blue text-2xl text-white rounded-xl">
-						sdf
-					</div>
-					<div className="absolute w-64 w-3/4 bg-yellow text-2xl text-white rounded-xl">
-						sdf
-					</div>
-				</div>
-			</div>
-		</>
-	);
+          <div className="flex flex-col items-center justify-center pr-10 pl-10 pb-8 -translate-y-3 shadow-2xl md:pr-0 md:pl-0 md:translate-y-0 md:shadow-none">
+            <div className="flex flex-col items-center justify-center overflow-hidden h-1/2 p-2 text-center rounded-xl bg-gradient-to-tl  from-gray to-gray-light md:p-5 md:h-2/3 lg:h-1/2">
+              <span className="font-Poppins p-3 text-white font-bold text-xl  md:p-1 lg:text-2xl lg:pb-5">
+                Simply deposit, and begin earning between
+              </span>
+              <span className="font-Poppins p-3 font-black text-4xl text-transparent bg-clip-text bg-gradient-to-r from-[#7928ca] to-[#ff0080] md:p-2 md:text-3xl lg:text-4xl lg:font-extrabold lg:pb-5">
+                5-15% APR
+              </span>
+              <button
+                className="w-2/3 pr-3 pl-3 pt-2 pb-2 text-white rounded-4xl bg-gradient-to-r p-[5px] from-[#7928ca] to-purple text-lg active:translate-y-[2px] md:w-full lg:w-2/3 md:text-2xl"
+                onClick={onClick}
+              >
+                Launch App
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex flex-row justify-center w-full">
+          <div className="flex flex-wrap justify-center bg-purple w-1/3 p-2 text-center text-light-gray text-base font-extrabold rounded-xl shadow-2xl translate-x-2 translate-y-2 z-30 md:grid md:grid-cols-3 md:items-center md:w-1/4 md:p-2 md:pl-4 md:text-xl md:font-bold  md:translate-x-3 md:translate-y-3">
+            <h1 className="md:col-span-2 lg:text-2xl">Unstake at any time</h1>
+            <div className="md:flex md:flex-row md:justify-center">
+              <FaClock className="text-white text-3xl md:text-4xl" />
+            </div>
+          </div>
+          <div className="flex flex-wrap justify-center bg-blue  w-1/3 p-2 text-center text-white text-base font-extrabold rounded-xl shadow-2xl  z-20 md:grid md:grid-cols-3 md:items-center md:w-1/4 md:pt-2 md:pl-4 md:pr-0 md:text-xl md:font-bold md:-translate-y-4">
+            <h1 className="md:col-span-2 lg:text-2xl">
+              Cross chain deposit support
+            </h1>
+            <div className="md:flex md:flex-row md:justify-center">
+              <FaRandom className="text-white text-2xl lg:text-4xl" />
+            </div>
+          </div>
+          <div className="flex flex-wrap justify-center bg-yellow  w-1/3 p-2 text-center text-gray text-sm font-extrabold rounded-xl shadow-2xl -translate-x-2 -translate-y-2 z-0 md:grid md:grid-cols-3 md:items-center md:w-1/4 md:pl-3 md:text-base md:font-bold  md:-translate-x-3 md:-translate-y-11">
+            <h1 className="md:col-span-2">
+              Capitalize on the power of compound interest
+            </h1>
+            <div className="md:flex md:flex-row md:justify-center">
+              <FaRegMoneyBillAlt className="text-4xl lg:text-5xl" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
 }
-
-//<h1 class="text-2xl font-bold text-transparent md:text-3xl bg-clip-text bg-gradient-to-r from-fuchsia-400  to-fuchsia-800"> Tailwind CSS Gradient Generator </h1>
-//bg-mockup-img bg-cover bg-center h-[701px] w-4/5
-// <div className="bg-hero2-img bg-cover p-4 bg-center items-center">
-// 	<div className="grid grid-cols-2 p-4 content-center ">
-// 		<div className="bg-mockup-img bg-cover bg-center">hhh</div>
-// 		<div className=" text-4xl text-center p-4 m-2  max-w-5xl text-white">
-// 			With Support For
-// 			<div>
-// 				<img
-// 					className=" object-none object-center"
-// 					src="logo-imgs.png"
-// 				></img>
-// 			</div>
-// 		</div>
-// 	</div>
-// </div>
