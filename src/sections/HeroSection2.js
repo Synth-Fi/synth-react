@@ -7,7 +7,7 @@ export default function HeroSection2(props) {
   };
   return (
     <>
-      <div className="font-Poppins justify-center items-center w-full bg-hero2-img bg-cover p-4 bg-center md:max-w-4xl lg:max-w-7xl">
+      <div className="font-Poppins justify-center items-center w-full bg-hero2-img bg-cover p-4 bg-center md:max-w-4xl lg:max-w-max">
         <div className="items-center text-2xl font-extrabold text-white text-center pt-4 md:pb-4 md:text-3xl lg:text-4xl">
           <span>Reimagine Yield Farming</span>
         </div>
