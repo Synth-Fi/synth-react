@@ -7,7 +7,7 @@ export const home_page_text = {
         {main: '“Leveraged Yield farming”',
         secondary: 'Utilizing the lowest stable coin swaps to provide you the highest constant APY',
         emoji: '👀',
-        color: 'purple'},
+        color: 'yellow'},
         
     ],
     stack_section: {
@@ -27,6 +27,11 @@ export const home_page_text = {
         emoji: '💸',
         color: 'yellow'    },
     ],
+
+    hero_section1 : {
+        "main": "Your gateway to simple compound interest on your Defi Assets",
+        "button_text": "Join Waitlist"
+    },
 
     // LABELED AS q and a respec.
     faq: [
