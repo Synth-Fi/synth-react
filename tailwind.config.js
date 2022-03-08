@@ -14,8 +14,8 @@ module.exports = {
       'blue': '#207DFF',
       'pink': '#ff49db',
       'purple': '#B62EE0',
-      'white': '#fff',
-      "yellow": "#FFF620",
+      'white': '#ffffff',
+      "yellow": "#fff620",
       'gray': '#8492a6',
       'blac': '#000000',
       'gray-light': '#d3dce6',
@@ -23,7 +23,7 @@ module.exports = {
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
-      'press-start': ['"Press Start 2P"', 'cursive']
+      'press-start': ['"Press Start 2P"']
     },
     extend: {
       spacing: {
@@ -38,6 +38,7 @@ module.exports = {
         'nav-img': 'url(../public/nav-shadow.png)',
         'mockup-img': 'url(../public/mockup.png)',
         'hero2-img': 'url(../public/home/hero2-img.png)',
+        'card-gif': 'url(../public/home/card.gif)',
       }
     }
   },
