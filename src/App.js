@@ -6,11 +6,11 @@ import OutlinedBox from './components/OutlinedBox';
 import StackSection from './components/StackSection';
 // import { CryptoCards, Button } from 'web3uikit';
 import { home_page_text } from './home_page_text';
-
 function App() {
   // HOME PAGE
   return (
 		<div className="items-center">
+			
 			{/* <HeroSection />
       <div className=''>
       <p className='text-white text-center text-4xl p-5'>CDs are out VHS 
@@ -23,6 +23,7 @@ function App() {
 			{/* <StackSection  {...home_page_text.stack_section}/> */}
 			<div className="flex flex-row justify-center items-center ">
 				<HeroSection2 />
+				
 			</div>
 		</div>
 	);

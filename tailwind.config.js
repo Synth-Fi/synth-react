@@ -41,6 +41,11 @@ module.exports = {
 				'mockup-img': 'url(../public/mockup.png)',
 				'hero2-img': 'url(../public/home/hero2-img.png)',
 			},
+			gradientColorStops: (theme) => ({
+				primary: '#FF8C00',
+				secondary: '#FFA500',
+				danger: '#FFD700',
+			}),
 		},
 	},
 	plugins: [require('daisyui')],
