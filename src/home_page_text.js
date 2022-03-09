@@ -60,11 +60,60 @@ export const home_page_text = {
         ]
     },
 
+    filled_box : {
+        color: 'purple',
+        text: 'Synth savings has no minimum deposits, account freezes, or signup requirements - it can be used by anyone in the world with access to the internet.'
+    },
+
+    team : [
+        {
+            emoji: '👲🏽',
+            name: "J. Kell",
+            roles : [
+                "UI/ux designer",
+                "blkchain dev",
+                "python🐍 Insertion"
+            ]
+
+        },
+        {
+            emoji: '👲🏽',
+            name: "J. Kell",
+            roles : [
+                "UI/ux designer",
+                "blkchain dev",
+                "python🐍 Insertion"
+            ]
+
+        },
+        {
+            emoji: '👲🏽',
+            name: "J. Kell",
+            roles : [
+                "UI/ux designer",
+                "blkchain dev",
+                "python🐍 Insertion"
+            ]
+
+        },
+        {
+            emoji: '👲🏽',
+            name: "J. Kell",
+            roles : [
+                "UI/ux designer",
+                "blkchain dev",
+                "python🐍 Insertion"
+            ]
+
+        }
+    ],
+
     // LABELED AS q and a respec.
     faq: [
         {
-            q: 'What is Defi?',
+            q: 'Why should I use Synth to manage my ?',
             a: "",
         },
     ],
+    
 }
