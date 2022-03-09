@@ -49,6 +49,8 @@ module.exports = {
 				'mockup-img': 'url(../public/mockup.png)',
 				'hero2-img': 'url(../public/home/hero2-img.png)',
 				'card-gif': 'url(../public/home/card.gif)',
+				"team-img": "url(../public/home/team-img.png)",
+				"team-box-img": "url(../public/home/team-box-img.png)",
 			},
 			gradientColorStops: (theme) => ({
 				primary: '#FF8C00',
