@@ -1,3 +1,7 @@
+import { FaClock, FaRandom, FaRegMoneyBillAlt } from "react-icons/fa";
+
+const icon_class = "text-white text-3xl md:text-4xl";
+
 export const home_page_text = {
     outlined_boxes: [
         {main: '“Literally cant go tits-up”',
@@ -31,6 +35,29 @@ export const home_page_text = {
     hero_section1 : {
         "main": "Your gateway to simple compound interest on your Defi Assets",
         "button_text": "Join Waitlist"
+    },
+
+    hero_section2: {
+        main: "Reimagine Yield Farming",
+        secondary:" Simply deposit your Defi Assets and begin earning between",
+        gradient_text:"10% - 20% APR",
+        button_text: "Launch App",
+        boxes :[
+            {
+                text: "Unstake  at any time",
+                icon: (<FaClock  className={icon_class}/>),
+            },
+            {
+                text: "Cross chain deposit support",
+                icon: (<FaRandom  className={icon_class}/>),
+            },
+            {
+                text: "Capitalizing on the power of compound interest",
+                icon: (<FaRegMoneyBillAlt  className={icon_class}/>),
+
+            },
+
+        ]
     },
 
     // LABELED AS q and a respec.
