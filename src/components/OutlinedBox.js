@@ -2,8 +2,7 @@ import React from 'react';
 
 export default function OutlinedBox(props) {
     return (
-
-                <div className={`bg-transparent border-8 border-${props.color} rounded-3xl p-4 m-4 max-w-lg`}>
+                <div className={`bg-transparent border-8 border-${props.color} rounded-3xl p-4 m-4 my-8 max-w-lg`} key={props.i}>
                 <div className='p-2'>
                 <div className='flex flex-row justify-between text-left p-3 '>
                     <div className={`text-left text-${props.color} text-2xl`}>
