@@ -17,6 +17,10 @@ export const home_page_text = {
     stack_section: {
         main: " Start capitalizing on your defi assets",
         secondary: "Earn Astonishing APY on ETH,USDT,SOL and countless other assets",
+        filled_box : {
+            color: 'purple',
+            text: 'Synth savings has no minimum deposits, account freezes, or signup requirements - it can be used by anyone in the world with access to the internet.'
+        },
     },
 
     filled_boxes: [
@@ -60,10 +64,7 @@ export const home_page_text = {
         ]
     },
 
-    filled_box : {
-        color: 'purple',
-        text: 'Synth savings has no minimum deposits, account freezes, or signup requirements - it can be used by anyone in the world with access to the internet.'
-    },
+    
 
     team : [
         {
