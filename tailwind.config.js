@@ -1,5 +1,4 @@
 module.exports = {
-	// purge: ['./src/**/*.{js,jsx}', './public/index.html'],
 	content: ['./src/**/*.{js,jsx}', './public/index.html'],
 	theme: {
 		screens: {
@@ -16,15 +15,6 @@ module.exports = {
 			yellow: '#FFF620',
 			gray: '#8492a6',
 			blac: '#000000',
-			// 'gray-light': '#d3dce6',
-			// 'blue': '#207DFF'
-    //   'pink': '#ff49db',
-    //   'purple': '#B62EE0',
-    //   'white': '#ffffff',
-    //   "yellow": "#fff620",
-    //   'gray': '#8492a6',
-    //   'blac': '#000000',
-    //   'gray-light': '#d3dce6',
 		},
 		fontFamily: {
 			Poppins: ['Poppins', 'sans-serif'],
