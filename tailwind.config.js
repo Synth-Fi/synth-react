@@ -1,8 +1,6 @@
 module.exports = {
-	purge: ['./src/**/*.{js,jsx}', './public/index.html'],
-	// content: [
-	//   "./src/**/*.{js,jsx,ts,tsx}",
-	// ],
+	// purge: ['./src/**/*.{js,jsx}', './public/index.html'],
+	content: ['./src/**/*.{js,jsx}', './public/index.html'],
 	theme: {
 		screens: {
 			sm: '480px',
@@ -51,6 +49,7 @@ module.exports = {
 				'card-gif': 'url(../public/home/card.gif)',
 				"team-img": "url(../public/home/team-img.png)",
 				"team-box-img": "url(../public/home/team-box-img.png)",
+				"logos-img": "url(../public/home/logos-img.png)",
 			},
 			gradientColorStops: (theme) => ({
 				primary: '#FF8C00',
