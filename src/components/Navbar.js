@@ -18,7 +18,7 @@ const nav_items = [
 
 function NavItem(props) {
     return (
-        <div className='px-4'>
+        <div className='px-4' key={props.i}>
             <div className="bg-yellow rounded-2xl nav-stack  hover:bg-opacity-70">
                 <div className="bg-blue nav-stack  hover:bg-opacity-70">
                     <div className="bg-pink nav-stack text-center  hover:bg-opacity-70">
@@ -42,9 +42,9 @@ export default function Navbar() {
                 <Logo />
             {/* NAV BAR ITEMS */}
             <div className="flex flex-row p-3">
-                {nav_items.map(item => (
+                {nav_items.map((item,i) => (
                 
-                    <NavItem text={item.name} />
+                    <NavItem text={item.name} i={i} />
                 ))}
             </div>
             {/* OPEN APP BUTTON */}
