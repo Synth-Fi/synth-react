@@ -29,7 +29,7 @@ export default function HeroSection2(props) {
                 {props.gradient_text}
               </span>
               <button
-                className="w-2/3 pr-3 pl-3 pt-2 pb-2 mb-2 text-white rounded-4xl bg-gradient-to-r p-[5px] from-[#7928ca] to-purple text-lg active:translate-y-[2px] md:w-full lg:w-2/3 md:text-2xl"
+                className="w-2/3 pr-3 pl-3 pt-2 pb-2 mb-2 text-white rounded-4xl bg-gradient-to-r p-[5px] from-[#7928ca] to-purple text-lg active:translate-y-[2px] md:w-full lg:w-2/3 md:text-2xl hover:opacity-50"
                 onClick={onClick}
               >
                 {props.button_text}
