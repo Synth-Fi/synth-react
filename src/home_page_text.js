@@ -77,36 +77,36 @@ export const home_page_text = {
             ]
 
         },
-        {
-            emoji: '👲🏽',
-            name: "J. Kell",
-            roles : [
-                "UI/ux designer",
-                "blkchain dev",
-                "python🐍 Insertion"
-            ]
+        // {
+        //     emoji: '👲🏽',
+        //     name: "J. Kell",
+        //     roles : [
+        //         "UI/ux designer",
+        //         "blkchain dev",
+        //         "python🐍 Insertion"
+        //     ]
 
-        },
-        {
-            emoji: '👲🏽',
-            name: "J. Kell",
-            roles : [
-                "UI/ux designer",
-                "blkchain dev",
-                "python🐍 Insertion"
-            ]
+        // },
+        // {
+        //     emoji: '👲🏽',
+        //     name: "J. Kell",
+        //     roles : [
+        //         "UI/ux designer",
+        //         "blkchain dev",
+        //         "python🐍 Insertion"
+        //     ]
 
-        },
-        {
-            emoji: '👲🏽',
-            name: "J. Kell",
-            roles : [
-                "UI/ux designer",
-                "blkchain dev",
-                "python🐍 Insertion"
-            ]
+        // },
+        // {
+        //     emoji: '👲🏽',
+        //     name: "J. Kell",
+        //     roles : [
+        //         "UI/ux designer",
+        //         "blkchain dev",
+        //         "python🐍 Insertion"
+        //     ]
 
-        }
+        // }
     ],
 
     // LABELED AS q and a respec.
