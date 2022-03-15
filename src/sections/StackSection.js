@@ -1,6 +1,5 @@
 import React from "react";
 import FilledBox from "../components/FilledBox";
-// import OutlinedBox from "../components/OutlinedBox";
 import StackedWrapper from "../components/StackedWrapper";
 
 export default function StackSection(props) {

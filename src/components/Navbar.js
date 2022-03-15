@@ -18,7 +18,7 @@ const nav_items = [
 
 function NavItem(props) {
     return (
-        <div className='px-4' key={props.i}>
+        <div className='px-4 ' key={props.i}>
             <div className="bg-yellow rounded-2xl nav-stack  hover:bg-opacity-70">
                 <div className="bg-blue nav-stack  hover:bg-opacity-70">
                     <div className="bg-pink nav-stack text-center  hover:bg-opacity-70">
@@ -37,18 +37,18 @@ function NavItem(props) {
 
 export default function Navbar() {
     return (
-        <div className="flex items-center justify-between p-4" >
+        <div className="flex flex-auto sticky top-0 z-50 items-center justify-between px-5" >
             {/* NAV BAR LOGO  */}
                 <Logo />
             {/* NAV BAR ITEMS */}
-            <div className="flex flex-row p-3">
+            <div className="flex flex-row items-center justify-between">
                 {nav_items.map((item,i) => (
                 
                     <NavItem text={item.name} i={i} />
                 ))}
             </div>
             {/* OPEN APP BUTTON */}
-            <button className='bg-transparent hover:bg-pink text-pink font-semibold hover:text-purple py-2 px-4 border border-pink hover:border-transparent rounded-2xl'>
+            <button className='bg-transparent my-2  hover:bg-pink text-pink font-semibold hover:text-purple py-2 px-4 border border-pink hover:border-transparent rounded-2xl'>
                 Launch app</button>
         </div>
     );

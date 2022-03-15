@@ -1,4 +1,3 @@
-// import React from 'react';
 export default function SquareOutline(props){
     return (
         <div className="p-3 m-3 ">

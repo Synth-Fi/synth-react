@@ -24,10 +24,7 @@ function App() {
         <HeroSection2 {...home_page_text.hero_section2} />
       </div>
       <GifCardSection {...home_page_text} />
-      <div className="flex flex-row justify-center items-center ">
         <TeamSection team={home_page_text.team} />
-      </div>
-
     </div>
   );
 }
