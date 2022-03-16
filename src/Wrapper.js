@@ -13,10 +13,11 @@ export default function Wrapper(){
         <BrowserRouter>
         <Routes>
           {/* HOME PAGE */}
-          <Route path="/" element={<App/>} />
+          <Route path="/" element={<Home/>} />
           <Route path="/home" element={<Home/>} />
           {/* ADD ADDITONAL ROUTES here ex swap page */}
           <Route path="/app" element={<App />} />
+          
           
 
         </Routes>
